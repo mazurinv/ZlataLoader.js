@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+<body style="background: #337ebf;">
+<div id="loader1"></div>
+<div id="loader2"></div>
+<div id="loader3"></div>
+<script src="ZlataLoader.js"></script>
+<script>
+     new ZlataLoader({
+         id: 'loader1',
+         imgSrc: "plane.png",
+         speed: -3
+     });
+     new ZlataLoader({
+         id: 'loader2',
+         imgSrc: "plane.png",
+         mode: 'single',
+         lineWidth: 4
+     });
+     new ZlataLoader({
+         id: 'loader3',
+         imgSrc: "plane.png",
+         mode: 'double',
+         radius: 90,
+         speed: -2,
+         lineColor: '#8bfaa8',
+         imageWidth: 78
+     });
+</script>
+</body>
+</html>
